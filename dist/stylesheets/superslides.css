@@ -1,3 +1,7 @@
+body {
+
+}
+
 #slides {
   position: relative;
 }
@@ -23,7 +27,7 @@
   margin: 0 auto;
   position: absolute;
   z-index: 3;
-  top: 46%;
+  top: 40%;
   width: 100%;
 }
 .slides-navigation a {
@@ -32,21 +36,25 @@
 }
 .slides-navigation a.prev {
   left: 0;
+  padding: 15px 30px;
+
 }
 .slides-navigation a.next {
   right: 0;
+  padding: 15px 30px;
 }
 
 .slides-pagination {
   position: absolute;
   z-index: 3;
-  bottom: 0;
+  bottom: 50px;
   text-align: center;
   width: 100%;
 }
 .slides-pagination a {
-  border: 2px solid #222;
+  /*border: 2px solid #efefef;*/
   border-radius: 15px;
+  background: #efefef;
   width: 10px;
   height: 10px;
   display: -moz-inline-stack;
@@ -61,5 +69,32 @@
   text-indent: -100%;
 }
 .slides-pagination a.current {
-  background: #222;
+  background: #39f;
+}
+
+a {
+  text-decoration: none !important;
+  color: #efefef;
+  font-size: 3em;
+}
+
+a:visited {
+  color: #efefef;
+}
+
+a:hover {
+  color: #39f;
+}
+
+.logo {
+  margin: 0 auto;
+  position: absolute;
+  z-index: 3;
+  top: 30px;
+  left: 30px;
+  display: block;
+  color: #333;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
