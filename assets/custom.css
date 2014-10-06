@@ -1,0 +1,55 @@
+/* custom css */
+
+.carousel-control.right,
+.carousel-control.left {
+  background-image: none !important;
+  background-repeat: no-repeat !important;
+  background: #fff;
+}
+
+.carousel-control {
+  opacity: 0.1;
+  color: #2c3e50;
+}
+
+.carousel-control:hover,
+.carousel-control:active {
+  opacity: 0.2;
+  color: #2c3e50;
+}
+
+.title-bar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.title-bar > .container {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.title-bar .container {
+  width: auto;
+}
+
+/* Carousel base class */
+.carousel {
+  display: table;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 100% !important;
+  margin-bottom: 0 !important;
+  /*background: red;*/
+}
+
+.carousel-control {
+  height: 100% !important;
+}
+
+.carousel-inner {
+  overflow: visible;
+}
