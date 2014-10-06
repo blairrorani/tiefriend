@@ -473,11 +473,9 @@ ol.carousel-indicators {
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-  .carousel-caption {
-    width: 40%;
-  }
-
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { ... }
+@media (min-width: @screen-lg-min) {
+
+}
